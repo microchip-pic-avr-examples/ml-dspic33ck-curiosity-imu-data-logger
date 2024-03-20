@@ -4,7 +4,7 @@
     <img alt="Microchip Logo." src="images/microchip_logo_black_red.png">
 </picture> 
 
-## %repoDescritpion%
+## ml dspic33ck curiosity imu data logger
 
 Board Image if any.
 
