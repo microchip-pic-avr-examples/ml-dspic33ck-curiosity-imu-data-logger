@@ -51,7 +51,7 @@
 // For ICM42688:
 //  Use one of 25, 50, 100, 200, 500
 // !NB! Increasing the sample rate above 200Hz with all 6 axes may cause buffer overruns
-// Change at your own risk!
+
 #define SNSR_SAMPLE_RATE        100
 
 #define SNSR_BUF_LEN            256
