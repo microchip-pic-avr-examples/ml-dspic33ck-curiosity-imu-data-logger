@@ -14,12 +14,7 @@
             <asminc-extensions/>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
-            <sourceRootList>
-                <sourceRootElem>../bmi160</sourceRootElem>
-                <sourceRootElem>../Icm426xx</sourceRootElem>
-                <sourceRootElem>../neai</sourceRootElem>
-                <sourceRootElem>.</sourceRootElem>
-            </sourceRootList>
+            <sourceRootList/>
             <confList>
                 <confElem>
                     <name>SNSR_TYPE_BMI160</name>

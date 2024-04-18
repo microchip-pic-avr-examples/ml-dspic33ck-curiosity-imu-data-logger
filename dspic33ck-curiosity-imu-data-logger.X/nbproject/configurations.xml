@@ -5,19 +5,19 @@
                    displayName="Header Files"
                    projectFiles="true">
       <logicalFolder name="bmi160" displayName="bmi160" projectFiles="true">
-        <itemPath>../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/bmi160/bmi160.h</itemPath>
-        <itemPath>../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/bmi160/bmi160_defs.h</itemPath>
+        <itemPath>../bmi160/bmi160.h</itemPath>
+        <itemPath>../bmi160/bmi160_defs.h</itemPath>
       </logicalFolder>
       <logicalFolder name="Icm426xx" displayName="Icm426xx" projectFiles="true">
-        <itemPath>../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/Icm426xxDefs.h</itemPath>
-        <itemPath>../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/Icm426xxDriver_HL.h</itemPath>
-        <itemPath>../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/Icm426xxDriver_HL_apex.h</itemPath>
-        <itemPath>../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/Icm426xxExtFunc.h</itemPath>
-        <itemPath>../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/Icm426xxSelfTest.h</itemPath>
-        <itemPath>../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/Icm426xxTransport.h</itemPath>
-        <itemPath>../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/Icm426xxVersion.h</itemPath>
-        <itemPath>../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/InvError.h</itemPath>
-        <itemPath>../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/InvExport.h</itemPath>
+        <itemPath>../Icm426xx/Icm426xxDefs.h</itemPath>
+        <itemPath>../Icm426xx/Icm426xxDriver_HL.h</itemPath>
+        <itemPath>../Icm426xx/Icm426xxDriver_HL_apex.h</itemPath>
+        <itemPath>../Icm426xx/Icm426xxExtFunc.h</itemPath>
+        <itemPath>../Icm426xx/Icm426xxSelfTest.h</itemPath>
+        <itemPath>../Icm426xx/Icm426xxTransport.h</itemPath>
+        <itemPath>../Icm426xx/Icm426xxVersion.h</itemPath>
+        <itemPath>../Icm426xx/InvError.h</itemPath>
+        <itemPath>../Icm426xx/InvExport.h</itemPath>
       </logicalFolder>
       <logicalFolder name="MCC Generated Files"
                      displayName="MCC Generated Files"
@@ -69,13 +69,13 @@
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="bmi160" displayName="bmi160" projectFiles="true">
-        <itemPath>../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/bmi160/bmi160.c</itemPath>
+        <itemPath>../bmi160/bmi160.c</itemPath>
       </logicalFolder>
       <logicalFolder name="Icm426xx" displayName="Icm426xx" projectFiles="true">
-        <itemPath>../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/Icm426xxDriver_HL.c</itemPath>
-        <itemPath>../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/Icm426xxDriver_HL_apex.c</itemPath>
-        <itemPath>../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/Icm426xxSelfTest.c</itemPath>
-        <itemPath>../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/Icm426xxTransport.c</itemPath>
+        <itemPath>../Icm426xx/Icm426xxDriver_HL.c</itemPath>
+        <itemPath>../Icm426xx/Icm426xxDriver_HL_apex.c</itemPath>
+        <itemPath>../Icm426xx/Icm426xxSelfTest.c</itemPath>
+        <itemPath>../Icm426xx/Icm426xxTransport.c</itemPath>
       </logicalFolder>
       <logicalFolder name="MCC Generated Files"
                      displayName="MCC Generated Files"
@@ -96,12 +96,6 @@
       <itemPath>buffer.c</itemPath>
     </logicalFolder>
   </logicalFolder>
-  <sourceRootList>
-    <Elem>../bmi160</Elem>
-    <Elem>../Icm426xx</Elem>
-    <Elem>../neai</Elem>
-    <Elem>.</Elem>
-  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="SNSR_TYPE_BMI160" type="2">
@@ -145,9 +139,7 @@
         <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
         <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
       </makeCustomizationType>
-      <item path="../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/Icm426xxDefs.h"
-            ex="true"
-            overriding="false">
+      <item path="../Icm426xx/Icm426xxDefs.h" ex="true" overriding="false">
         <C30>
         </C30>
         <C30-AR>
@@ -161,9 +153,7 @@
         <C30Global>
         </C30Global>
       </item>
-      <item path="../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/Icm426xxDriver_HL.c"
-            ex="true"
-            overriding="false">
+      <item path="../Icm426xx/Icm426xxDriver_HL.c" ex="true" overriding="false">
         <C30>
         </C30>
         <C30-AR>
@@ -177,9 +167,7 @@
         <C30Global>
         </C30Global>
       </item>
-      <item path="../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/Icm426xxDriver_HL.h"
-            ex="true"
-            overriding="false">
+      <item path="../Icm426xx/Icm426xxDriver_HL.h" ex="true" overriding="false">
         <C30>
         </C30>
         <C30-AR>
@@ -193,9 +181,7 @@
         <C30Global>
         </C30Global>
       </item>
-      <item path="../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/Icm426xxDriver_HL_apex.c"
-            ex="true"
-            overriding="false">
+      <item path="../Icm426xx/Icm426xxDriver_HL_apex.c" ex="true" overriding="false">
         <C30>
         </C30>
         <C30-AR>
@@ -209,9 +195,7 @@
         <C30Global>
         </C30Global>
       </item>
-      <item path="../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/Icm426xxDriver_HL_apex.h"
-            ex="true"
-            overriding="false">
+      <item path="../Icm426xx/Icm426xxDriver_HL_apex.h" ex="true" overriding="false">
         <C30>
         </C30>
         <C30-AR>
@@ -225,9 +209,7 @@
         <C30Global>
         </C30Global>
       </item>
-      <item path="../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/Icm426xxExtFunc.h"
-            ex="true"
-            overriding="false">
+      <item path="../Icm426xx/Icm426xxExtFunc.h" ex="true" overriding="false">
         <C30>
         </C30>
         <C30-AR>
@@ -241,9 +223,7 @@
         <C30Global>
         </C30Global>
       </item>
-      <item path="../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/Icm426xxSelfTest.c"
-            ex="true"
-            overriding="false">
+      <item path="../Icm426xx/Icm426xxSelfTest.c" ex="true" overriding="false">
         <C30>
         </C30>
         <C30-AR>
@@ -257,9 +237,7 @@
         <C30Global>
         </C30Global>
       </item>
-      <item path="../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/Icm426xxSelfTest.h"
-            ex="true"
-            overriding="false">
+      <item path="../Icm426xx/Icm426xxSelfTest.h" ex="true" overriding="false">
         <C30>
         </C30>
         <C30-AR>
@@ -273,9 +251,7 @@
         <C30Global>
         </C30Global>
       </item>
-      <item path="../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/Icm426xxTransport.c"
-            ex="true"
-            overriding="false">
+      <item path="../Icm426xx/Icm426xxTransport.c" ex="true" overriding="false">
         <C30>
         </C30>
         <C30-AR>
@@ -289,9 +265,7 @@
         <C30Global>
         </C30Global>
       </item>
-      <item path="../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/Icm426xxTransport.h"
-            ex="true"
-            overriding="false">
+      <item path="../Icm426xx/Icm426xxTransport.h" ex="true" overriding="false">
         <C30>
         </C30>
         <C30-AR>
@@ -305,9 +279,7 @@
         <C30Global>
         </C30Global>
       </item>
-      <item path="../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/Icm426xxVersion.h"
-            ex="true"
-            overriding="false">
+      <item path="../Icm426xx/Icm426xxVersion.h" ex="true" overriding="false">
         <C30>
         </C30>
         <C30-AR>
@@ -321,9 +293,7 @@
         <C30Global>
         </C30Global>
       </item>
-      <item path="../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/InvError.h"
-            ex="true"
-            overriding="false">
+      <item path="../Icm426xx/InvError.h" ex="true" overriding="false">
         <C30>
         </C30>
         <C30-AR>
@@ -337,9 +307,7 @@
         <C30Global>
         </C30Global>
       </item>
-      <item path="../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/Icm426xx/InvExport.h"
-            ex="true"
-            overriding="false">
+      <item path="../Icm426xx/InvExport.h" ex="true" overriding="false">
         <C30>
         </C30>
         <C30-AR>
@@ -370,7 +338,7 @@
         <property key="enable-symbols" value="true"/>
         <property key="enable-unroll-loops" value="false"/>
         <property key="expand-pragma-config" value="false"/>
-        <property key="extra-include-directories" value=".;..\bmi160;..\neai"/>
+        <property key="extra-include-directories" value="..\bmi160;."/>
         <property key="isolate-each-function" value="false"/>
         <property key="keep-inline" value="false"/>
         <property key="oXC16gcc-align-arr" value="false"/>
@@ -470,7 +438,7 @@
       </C30-LD>
       <C30Global>
         <property key="combine-sourcefiles" value="false"/>
-        <property key="common-include-directories" value=""/>
+        <property key="common-include-directories" value="app_config\bmi160"/>
         <property key="dual-boot-partition" value="0"/>
         <property key="fast-math" value="false"/>
         <property key="generic-16-bit" value="false"/>
@@ -1676,9 +1644,9 @@
         <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
         <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
       </makeCustomizationType>
-      <item path="../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/bmi160/bmi160.c"
-            ex="true"
-            overriding="false">
+      <item path="../bmi160/bmi160.c" ex="true" overriding="false">
+      </item>
+      <item path="../bmi160/bmi160.h" ex="true" overriding="false">
         <C30>
         </C30>
         <C30-AR>
@@ -1692,25 +1660,7 @@
         <C30Global>
         </C30Global>
       </item>
-      <item path="../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/bmi160/bmi160.h"
-            ex="true"
-            overriding="false">
-        <C30>
-        </C30>
-        <C30-AR>
-        </C30-AR>
-        <C30-AS>
-        </C30-AS>
-        <C30-CO>
-        </C30-CO>
-        <C30-LD>
-        </C30-LD>
-        <C30Global>
-        </C30Global>
-      </item>
-      <item path="../../../../../Folder-of-Knowledge/Learning Material/Machine Learning/MCU16/dsPIC33CK_ML/firmware/bmi160/bmi160_defs.h"
-            ex="true"
-            overriding="false">
+      <item path="../bmi160/bmi160_defs.h" ex="false" overriding="false">
         <C30>
         </C30>
         <C30-AR>
@@ -1741,7 +1691,7 @@
         <property key="enable-symbols" value="true"/>
         <property key="enable-unroll-loops" value="false"/>
         <property key="expand-pragma-config" value="false"/>
-        <property key="extra-include-directories" value=".;..\Icm426xx;..\neai"/>
+        <property key="extra-include-directories" value=".;..\Icm426xx"/>
         <property key="isolate-each-function" value="false"/>
         <property key="keep-inline" value="false"/>
         <property key="oXC16gcc-align-arr" value="false"/>
@@ -1957,18 +1907,6 @@
                   value="Press to select which tool pack to use"/>
       </Tool>
       <item path="app_config/bmi160/bmi160_sensor.c" ex="true" overriding="false">
-        <C30>
-        </C30>
-        <C30-AR>
-        </C30-AR>
-        <C30-AS>
-        </C30-AS>
-        <C30-CO>
-        </C30-CO>
-        <C30-LD>
-        </C30-LD>
-        <C30Global>
-        </C30Global>
       </item>
       <pkob4hybrid>
         <property key="ADC" value="true"/>
